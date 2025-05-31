@@ -1,0 +1,3 @@
+# Download Log for CMEMS Data - Chapter 3
+2025-05-31: SST data (0.25°), region: California Current, 2007–2025, pulled via Copernicus API  
+2025-06-01: Wind stress u/v components, 0.25°, 2007–2025
