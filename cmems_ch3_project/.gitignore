@@ -1,1 +1,13 @@
 data/observational/coldstun/*.csv
+.venv/
+*.csv
+__pycache__/
+notebooks/.ipynb_checkpoints/
+../cats_ch1_project/
+../dissertation_chapters/
+.venv/
+*.csv
+__pycache__/
+notebooks/.ipynb_checkpoints/
+../cats_ch1_project/
+../dissertation_chapters/
