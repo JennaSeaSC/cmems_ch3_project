@@ -1,0 +1,11 @@
+# Update pipeline with stranding date
+# Run pipeline
+# Run slice
+# Run converter
+# Run ffmpeg animation:
+# in WSL (penggy)
+# cd /home/jenna/dissertation_chapters/cmems_ch3_project/png_frames
+ffmpeg -framerate 10 -pattern_type glob -i '*.png' \
+-vf "scale=iw:ih:force_original_aspect_ratio=decrease,pad=ceil(iw/2)*2:ceil(ih/2)*2" \
+-c:v libx264 -pix_fmt yuv420p 2009-11-22_sst_animation.mp4
+
